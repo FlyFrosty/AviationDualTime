@@ -1,0 +1,1596 @@
+[ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 12; ]
+    module Strings {
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var Z18 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var Z17 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
+        var Z19 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
+        var ZuluTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
+        var ZuluOffsetPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 18; @position = 27; initialized = true; ]
+        var NoBat as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
+        var Black as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; ]
+        var GrayShad as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 21; @position = 27; initialized = true; ]
+        var Orange as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; ]
+        var ShadOptPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; ]
+        var ZuluOffsetTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; ]
+        var batString as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; ]
+        var Z1 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; ]
+        var Z2 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; ]
+        var Z21 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 28; @position = 27; initialized = true; ]
+        var ShadOpt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 29; @position = 27; initialized = true; ]
+        var Z3 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; ]
+        var Z20 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; ]
+        var Z4 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; ]
+        var Z23 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; ]
+        var Z5 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; ]
+        var Z22 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; ]
+        var DispBattPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; ]
+        var Z6 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; ]
+        var Z25 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 38; @position = 27; initialized = true; ]
+        var YesWx as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 39; @position = 27; initialized = true; ]
+        var Z7 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
+        var Z24 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
+        var Z8 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
+        var Z27 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 43; @position = 27; initialized = true; ]
+        var Z9 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
+        var Z26 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
+        var Z29 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 46; @position = 27; initialized = true; ]
+        var Z28 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 47; @position = 27; initialized = true; ]
+        var SecOptTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 48; @position = 27; initialized = true; ]
+        var ShowNotes as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 49; @position = 27; initialized = true; ]
+        var ZSteps as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 50; @position = 27; initialized = true; ]
+        var Pink as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 51; @position = 27; initialized = true; ]
+        var WhiteShad as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 52; @position = 27; initialized = true; ]
+        var Yellow as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 53; @position = 27; initialized = true; ]
+        var Z30 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 54; @position = 27; initialized = true; ]
+        var Z31 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 55; @position = 27; initialized = true; ]
+        var ZuluOffset as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 56; @position = 27; initialized = true; ]
+        var SubColorTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 57; @position = 27; initialized = true; ]
+        var TouchOffTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 58; @position = 27; initialized = true; ]
+        var BackgroundColorTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 59; @position = 27; initialized = true; ]
+        var ShowNotesPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 60; @position = 27; initialized = true; ]
+        var DKGray as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 61; @position = 27; initialized = true; ]
+        var TouchOffPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 62; @position = 27; initialized = true; ]
+        var DKBlue as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 63; @position = 27; initialized = true; ]
+        var TimeStepTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 64; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 65; @position = 27; initialized = true; ]
+        var ClockColorPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 66; @position = 27; initialized = true; ]
+        var ShadOptTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 67; @position = 27; initialized = true; ]
+        var ZTime as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 68; @position = 27; initialized = true; ]
+        var TimeStepPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 69; @position = 27; initialized = true; ]
+        var LocalOrZuluTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 70; @position = 27; initialized = true; ]
+        var DispBattTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 71; @position = 27; initialized = true; ]
+        var SubColorPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 72; @position = 27; initialized = true; ]
+        var NoShad as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 73; @position = 27; initialized = true; ]
+        var Blue as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 74; @position = 27; initialized = true; ]
+        var ShowNotesTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 75; @position = 27; initialized = true; ]
+        var SecOptPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 76; @position = 27; initialized = true; ]
+        var DKRed as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 77; @position = 27; initialized = true; ]
+        var ClockColorTitle as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; ]
+        var YesBat as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; ]
+        var BlackShad as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 80; @position = 27; initialized = true; ]
+        var Red as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 81; @position = 27; initialized = true; ]
+        var White as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 82; @position = 27; initialized = true; ]
+        var Purple as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 83; @position = 27; initialized = true; ]
+        var Z10 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 84; @position = 27; initialized = true; ]
+        var LTGray as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 85; @position = 27; initialized = true; ]
+        var LocalOrZuluPrompt as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 86; @position = 27; initialized = true; ]
+        var zuluLabel as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 87; @position = 27; initialized = true; ]
+        var Z12 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 88; @position = 27; initialized = true; ]
+        var Z11 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 89; @position = 27; initialized = true; ]
+        var Z14 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 90; @position = 27; initialized = true; ]
+        var DKGreen as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 91; @position = 27; initialized = true; ]
+        var Z13 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 92; @position = 27; initialized = true; ]
+        var Green as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 93; @position = 27; initialized = true; ]
+        var Z16 as ResourceId;
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 94; @position = 27; initialized = true; ]
+        var Z15 as ResourceId;
+    }
+    [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 97; ]
+    module Styles {
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 97; ]
+        <init> {
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 98; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 98; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 99 18 ]
+                %tmp.1 = getm $.Toybox.Graphics;
+                %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_CENTER;
+                %tmp.3 = getm $.Toybox.Graphics;
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_VCENTER;
+                %tmp.5 = bitor %tmp.2 %tmp.4;
+                putv self :justification %tmp.5;
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 100 18 ]
+                %tmp.6 = getm $.Toybox.Graphics;
+                %tmp.7 = getv %tmp.6 :FONT_TINY;
+                putv self :font %tmp.7;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 99; @position = 18; ]
+            const justification;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 100; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 103; ]
+        module system_size__menu_header {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 103; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 104; @position = 18; ]
+            const width as Number = 280;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 105; @position = 18; ]
+            const height as Number = 95;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 108; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 109; @position = 18; ]
+            const x as Number = 7;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 110; @position = 18; ]
+            const y as Number = 179;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 113; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 113; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 114 18 ]
+                %tmp.8 = getm $.Toybox.Graphics;
+                %tmp.9 = getv %tmp.8 :TEXT_JUSTIFY_CENTER;
+                %tmp.10 = getm $.Toybox.Graphics;
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_VCENTER;
+                %tmp.12 = bitor %tmp.9 %tmp.11;
+                putv self :justification %tmp.12;
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 115 18 ]
+                %tmp.13 = getm $.Toybox.Graphics;
+                %tmp.14 = getv %tmp.13 :FONT_TINY;
+                putv self :font %tmp.14;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 114; @position = 18; ]
+            const justification;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 115; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 118; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 118; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 119; @position = 18; ]
+            const x as Number = 28;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 120; @position = 18; ]
+            const y as Number = 28;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 123; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 123; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 124; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__about.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 125; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 126; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 127; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 130; ]
+        module system_icon_light__question {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 130; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 131; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__question.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 132; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 135; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 135; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 136; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 139; ]
+        module prompt_font__title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 139; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 140 18 ]
+                %tmp.15 = getm $.Toybox.Graphics;
+                %tmp.16 = getv %tmp.15 :TEXT_JUSTIFY_CENTER;
+                %tmp.17 = getm $.Toybox.Graphics;
+                %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_VCENTER;
+                %tmp.19 = bitor %tmp.16 %tmp.18;
+                putv self :justification %tmp.19;
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 141 18 ]
+                %tmp.20 = getm $.Toybox.Graphics;
+                %tmp.21 = getv %tmp.20 :FONT_TINY;
+                putv self :font %tmp.21;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 140; @position = 18; ]
+            const justification;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 141; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 144; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 144; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 145; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__discard.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 146; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 147; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 148; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 151; ]
+        module system_size__menu_item {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 152; @position = 18; ]
+            const width as Number = 280;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 153; @position = 18; ]
+            const height as Number = 89;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 156; ]
+        module system_color_dark__text {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 156; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 158 18 ]
+                %tmp.22 = getm $.Toybox.Graphics;
+                %tmp.23 = getv %tmp.22 :COLOR_TRANSPARENT;
+                putv self :background %tmp.23;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 157; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 158; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 161; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 162; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__discard.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 163; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 166; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 167; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 168; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 171; ]
+        module prompt_size__title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 171; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 172; @position = 18; ]
+            const width as Number = 224;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 173; @position = 18; ]
+            const height as Number = 42;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 176; ]
+        module confirmation_font__body {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 176; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 177 18 ]
+                %tmp.24 = getm $.Toybox.Graphics;
+                %tmp.25 = getv %tmp.24 :TEXT_JUSTIFY_CENTER;
+                %tmp.26 = getm $.Toybox.Graphics;
+                %tmp.27 = getv %tmp.26 :TEXT_JUSTIFY_VCENTER;
+                %tmp.28 = bitor %tmp.25 %tmp.27;
+                putv self :justification %tmp.28;
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 178 18 ]
+                %tmp.29 = getm $.Toybox.Graphics;
+                %tmp.30 = getv %tmp.29 :FONT_TINY;
+                putv self :font %tmp.30;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 177; @position = 18; ]
+            const justification;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 178; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 181; ]
+        module system_color_dark__background {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 182; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 183; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 186; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 186; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 187; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 188; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 191; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 191; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 192; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 193; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 194; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 197; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 197; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 198 18 ]
+                %tmp.31 = getm $.Toybox.WatchUi;
+                %tmp.32 = getv %tmp.31 :KEY_ENTER;
+                putv self :button %tmp.32;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 198; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 201; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 201; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 202 18 ]
+                %tmp.33 = getm $.Toybox.Graphics;
+                %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.34;
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 203 18 ]
+                %tmp.35 = getm $.Toybox.Graphics;
+                %tmp.36 = getv %tmp.35 :FONT_GLANCE;
+                putv self :font %tmp.36;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 202; @position = 18; ]
+            const justification;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 203; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 206; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 207; @position = 18; ]
+            const x as Number = 56;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 208; @position = 18; ]
+            const y as Number = 56;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 211; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 211; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 212; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 213; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 216; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 216; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 217; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 218; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 221; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 221; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 222; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 223; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 226; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 226; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 227; @position = 18; ]
+            const x as Number = 222;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 228; @position = 18; ]
+            const y as Number = 44;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 231; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 232; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 233; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 236; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 236; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 237; @position = 18; ]
+            const x as Number = 0;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 238; @position = 18; ]
+            const y as Number = 110;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 241; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 242; @position = 18; ]
+            const width as Number = 224;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 243; @position = 18; ]
+            const height as Number = 224;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 246; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 246; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 247; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 248; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 251; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 251; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 252; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 253; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 256; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 256; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 257 18 ]
+                %tmp.37 = getm $.Toybox.WatchUi;
+                %tmp.38 = getv %tmp.37 :KEY_ENTER;
+                putv self :button %tmp.38;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 257; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 260; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 260; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 261; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 262; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 265; ]
+        module system_input__action_menu {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 265; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 266 18 ]
+                %tmp.39 = getm $.Toybox.WatchUi;
+                %tmp.40 = getv %tmp.39 :KEY_ENTER;
+                putv self :button %tmp.40;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 266; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 269; ]
+        module system_icon_light__save {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 269; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 270; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__save.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 271; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 274; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 274; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 276 18 ]
+                %tmp.41 = getm $.Toybox.Graphics;
+                %tmp.42 = getv %tmp.41 :COLOR_TRANSPARENT;
+                putv self :background %tmp.42;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 275; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 276; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 279; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 279; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 280; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 283; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 284; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__warning.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 285; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 288; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 288; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 290 18 ]
+                %tmp.43 = getm $.Toybox.Graphics;
+                %tmp.44 = getv %tmp.43 :COLOR_TRANSPARENT;
+                putv self :background %tmp.44;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 289; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 290; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 293; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 293; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 294; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 295; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 298; ]
+        module activity_color_light__background {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 298; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 299; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 300; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 303; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 303; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 304; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 305; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 308; ]
+        module system_size__screen {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 308; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 309; @position = 18; ]
+            const width as Number = 280;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 310; @position = 18; ]
+            const height as Number = 280;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 313; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 313; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 314; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 315; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 318; ]
+        module system_color_light__background {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 318; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 319; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 320; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 323; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 323; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 324; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 325; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 328; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 328; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 329; @position = 18; ]
+            const x as Number = 222;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 330; @position = 18; ]
+            const y as Number = 44;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 333; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 333; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 335 18 ]
+                %tmp.45 = getm $.Toybox.Graphics;
+                %tmp.46 = getv %tmp.45 :COLOR_TRANSPARENT;
+                putv self :background %tmp.46;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 334; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 335; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 338; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 338; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 339 18 ]
+                %tmp.47 = getm $.Toybox.WatchUi;
+                %tmp.48 = getv %tmp.47 :KEY_DOWN;
+                putv self :button %tmp.48;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 339; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 342; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 342; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 343; @position = 18; ]
+            const x as Number = 28;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 344; @position = 18; ]
+            const y as Number = 84;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 347; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 347; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 348; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__search.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 349; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 350; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 351; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 354; ]
+        module activity_color_light__text {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 354; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 356 18 ]
+                %tmp.49 = getm $.Toybox.Graphics;
+                %tmp.50 = getv %tmp.49 :COLOR_TRANSPARENT;
+                putv self :background %tmp.50;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 355; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 356; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 359; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 359; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 360; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 361; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 364; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 364; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 365; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__save.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 366; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 367; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 368; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 371; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 372; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 373; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 376; ]
+        module system_icon_light__search {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 376; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 377; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__search.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 378; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 381; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 382; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 383; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 386; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 387; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 388; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 391; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 391; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 392; @position = 18; ]
+            const x as Number = 222;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 393; @position = 18; ]
+            const y as Number = 178;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 396; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 396; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 397; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 398; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 401; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 401; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 403 18 ]
+                %tmp.51 = getm $.Toybox.Graphics;
+                %tmp.52 = getv %tmp.51 :COLOR_TRANSPARENT;
+                putv self :background %tmp.52;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 402; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 403; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 406; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 407; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 408; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 411; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 411; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 413 18 ]
+                %tmp.53 = getm $.Toybox.Graphics;
+                %tmp.54 = getv %tmp.53 :COLOR_TRANSPARENT;
+                putv self :background %tmp.54;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 412; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 413; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 416; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 416; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 417; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 418; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 421; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 421; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 422; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 423; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 426; ]
+        module prompt_loc__title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 427; @position = 18; ]
+            const x as Number = 28;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 428; @position = 18; ]
+            const y as Number = 21;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 431; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 431; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 432 18 ]
+                %tmp.55 = getm $.Toybox.Graphics;
+                %tmp.56 = getv %tmp.55 :TEXT_JUSTIFY_CENTER;
+                %tmp.57 = getm $.Toybox.Graphics;
+                %tmp.58 = getv %tmp.57 :TEXT_JUSTIFY_VCENTER;
+                %tmp.59 = bitor %tmp.56 %tmp.58;
+                putv self :justification %tmp.59;
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 433 18 ]
+                %tmp.60 = getm $.Toybox.Graphics;
+                %tmp.61 = getv %tmp.60 :FONT_SMALL;
+                putv self :font %tmp.61;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 432; @position = 18; ]
+            const justification;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 433; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 436; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 436; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 438 18 ]
+                %tmp.62 = getm $.Toybox.Graphics;
+                %tmp.63 = getv %tmp.62 :COLOR_TRANSPARENT;
+                putv self :background %tmp.63;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 437; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 438; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 441; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 441; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 442; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 443; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 446; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 446; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 447; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 448; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 451; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 451; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 452; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 453; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 456; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 456; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 457; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__cancel.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 458; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 461; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 461; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 462; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 463; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 466; ]
+        module system_icon_light__about {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 466; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 467; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__about.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 468; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 471; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 471; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 472; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 473; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 474; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 477; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 477; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 478; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 481; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 481; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 482; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 483; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 486; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 486; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 487; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 488; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 491; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 491; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 492; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 495; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 495; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 496; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 499; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 499; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 500; @position = 18; ]
+            const x as Number = 7;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 501; @position = 18; ]
+            const y as Number = 179;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 502; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 505; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 505; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 506; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 507; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 510; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 510; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 511; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 512; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 515; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 516; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 517; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 520; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 521; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 522; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 525; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 525; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 526; @position = 18; ]
+            const scaleX as Number = 45;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 527; @position = 18; ]
+            const scaleY as Number = 76;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 528; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 531; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 531; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 532; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__warning.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 533; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 536; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 537; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 540; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 540; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 541; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__cancel.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 542; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 543; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 544; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 547; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 547; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 548; @position = 18; ]
+            const width as Number = 224;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 549; @position = 18; ]
+            const height as Number = 168;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 552; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 552; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 553; @position = 18; ]
+            const x as Number = 222;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 554; @position = 18; ]
+            const y as Number = 44;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 557; ]
+        module system_color_light__text {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 557; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 559 18 ]
+                %tmp.64 = getm $.Toybox.Graphics;
+                %tmp.65 = getv %tmp.64 :COLOR_TRANSPARENT;
+                putv self :background %tmp.65;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 558; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 559; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 562; ]
+        module system_icon_light__check {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 562; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 563; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__check.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 564; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 567; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 567; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 568 18 ]
+                %tmp.66 = getm $.Toybox.WatchUi;
+                %tmp.67 = getv %tmp.66 :KEY_DOWN;
+                putv self :button %tmp.67;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 568; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 571; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 571; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 572; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__revert.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 573; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 576; ]
+        module system_size__subwindow {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 576; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 577; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 580; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 580; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 581; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 582; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 585; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 585; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 586; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__check.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 587; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 588; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 589; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 592; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 592; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 593; @position = 18; ]
+            const x as Number = 7;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 594; @position = 18; ]
+            const y as Number = 179;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 595; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 598; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 598; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 599; @position = 18; ]
+            const x as Number = 222;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 600; @position = 18; ]
+            const y as Number = 44;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 603; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 603; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 604; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 605; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 608; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 608; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 609; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 612; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 612; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 613; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 614; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 617; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 617; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 618; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 619; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 622; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 622; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 623; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 624; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 627; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 627; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 628; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__revert.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 629; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 630; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 631; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 634; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 634; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 635; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 636; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 639; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 639; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 640; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__question.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 641; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 642; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 643; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 646; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 646; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 647; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__discard.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 648; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 651; ]
+        module device_info {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 651; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 653 18 ]
+                %tmp.68 = getm $.Toybox.System;
+                %tmp.69 = getv %tmp.68 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.69;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 652; @position = 18; ]
+            const screenWidth as Number = 280;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 653; @position = 18; ]
+            const screenShape;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 654; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 655; @position = 18; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 656; @position = 18; ]
+            const screenHeight as Number = 280;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 657; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 658; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 661; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 661; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 662; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 663; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 666; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 666; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 667 18 ]
+                %tmp.70 = getm $.Toybox.Graphics;
+                %tmp.71 = getv %tmp.70 :TEXT_JUSTIFY_CENTER;
+                %tmp.72 = getm $.Toybox.Graphics;
+                %tmp.73 = getv %tmp.72 :TEXT_JUSTIFY_VCENTER;
+                %tmp.74 = bitor %tmp.71 %tmp.73;
+                putv self :justification %tmp.74;
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 668 18 ]
+                %tmp.75 = getm $.Toybox.Graphics;
+                %tmp.76 = getv %tmp.75 :FONT_GLANCE;
+                putv self :font %tmp.76;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 667; @position = 18; ]
+            const justification;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 668; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 671; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 671; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 672; @position = 18; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 673; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 676; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 676; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 677; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__warning.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 678; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 679; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 680; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 683; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 683; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 684; @position = 18; ]
+            const x as Number = 140;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 685; @position = 18; ]
+            const y as Number = 42;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 686; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 687; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 690; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 690; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 691 18 ]
+                %tmp.77 = getm $.Toybox.Graphics;
+                %tmp.78 = getv %tmp.77 :TEXT_JUSTIFY_CENTER;
+                %tmp.79 = getm $.Toybox.Graphics;
+                %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_VCENTER;
+                %tmp.81 = bitor %tmp.78 %tmp.80;
+                putv self :justification %tmp.81;
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 692 18 ]
+                %tmp.82 = getm $.Toybox.Graphics;
+                %tmp.83 = getv %tmp.82 :FONT_SMALL;
+                putv self :font %tmp.83;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 691; @position = 18; ]
+            const justification;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 692; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 695; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 695; ]
+            <init> {
+[ "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" 697 18 ]
+                %tmp.84 = getm $.Toybox.Graphics;
+                %tmp.85 = getv %tmp.84 :COLOR_TRANSPARENT;
+                putv self :background %tmp.85;
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 696; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 697; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 700; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 700; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 701; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 702; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 705; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 705; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 706; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 707; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 710; ]
+        module confirmation_size__body {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 710; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 711; @position = 18; ]
+            const width as Number = 168;
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 712; @position = 18; ]
+            const height as Number = 168;
+        }
+        [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 715; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 715; ]
+            <init> {
+            }
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 716; @position = 18; ]
+            const filename as String = "/Users/jeffreyforste/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__check.svg";
+            [ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 717; @position = 18; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

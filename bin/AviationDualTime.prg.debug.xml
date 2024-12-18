@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="1" lineNum="180" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="1" lineNum="181" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="2" lineNum="545" parent="globals/AviationDualTimeDelegate" pc="268435481" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/bin/gen/006-B4575-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435493" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="4" lineNum="21" parent="globals/AviationDualTimeApp" pc="268435513" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="5" lineNum="11" parent="globals/AviationDualTimeView" pc="268435525" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="554" parent="globals/AviationDualTimeDelegate" pc="268435537" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="555" parent="globals/AviationDualTimeDelegate" pc="268435540" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="556" parent="globals/AviationDualTimeDelegate" pc="268435549" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="557" parent="globals/AviationDualTimeDelegate" pc="268435572" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="559" parent="globals/AviationDualTimeDelegate" pc="268435595" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="561" parent="globals/AviationDualTimeDelegate" pc="268435615" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="562" parent="globals/AviationDualTimeDelegate" pc="268435639" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="563" parent="globals/AviationDualTimeDelegate" pc="268435662" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="564" parent="globals/AviationDualTimeDelegate" pc="268435667" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="565" parent="globals/AviationDualTimeDelegate" pc="268435692" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="566" parent="globals/AviationDualTimeDelegate" pc="268435715" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="568" parent="globals/AviationDualTimeDelegate" pc="268435720" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="571" parent="globals/AviationDualTimeDelegate" pc="268435725" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="572" parent="globals/AviationDualTimeDelegate" pc="268435770" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="573" parent="globals/AviationDualTimeDelegate" pc="268435793" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="574" parent="globals/AviationDualTimeDelegate" pc="268435798" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="575" parent="globals/AviationDualTimeDelegate" pc="268435821" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="576" parent="globals/AviationDualTimeDelegate" pc="268435844" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="6" lineNum="578" parent="globals/AviationDualTimeDelegate" pc="268435849" symbol="onPress"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="7" lineNum="549" parent="globals/AviationDualTimeDelegate" pc="268435852" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="7" lineNum="550" parent="globals/AviationDualTimeDelegate" pc="268435854" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="7" lineNum="551" parent="globals/AviationDualTimeDelegate" pc="268435866" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="8" lineNum="48" parent="globals/AviationDualTimeApp" pc="268435876" symbol="getInitialView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="8" lineNum="51" parent="globals/AviationDualTimeApp" pc="268435878" symbol="getInitialView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="8" lineNum="53" parent="globals/AviationDualTimeApp" pc="268435907" symbol="getInitialView"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="9" lineNum="43" parent="globals/AviationDualTimeApp" pc="268435950" symbol="onStart"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="58" parent="globals/AviationDualTimeApp" pc="268435953" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="61" parent="globals/AviationDualTimeApp" pc="268435955" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="61" parent="globals/AviationDualTimeApp" pc="268435964" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="62" parent="globals/AviationDualTimeApp" pc="268435979" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="62" parent="globals/AviationDualTimeApp" pc="268435988" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="63" parent="globals/AviationDualTimeApp" pc="268436003" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="63" parent="globals/AviationDualTimeApp" pc="268436012" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="64" parent="globals/AviationDualTimeApp" pc="268436027" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="64" parent="globals/AviationDualTimeApp" pc="268436036" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="66" parent="globals/AviationDualTimeApp" pc="268436051" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="67" parent="globals/AviationDualTimeApp" pc="268436075" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="68" parent="globals/AviationDualTimeApp" pc="268436099" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="69" parent="globals/AviationDualTimeApp" pc="268436123" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="70" parent="globals/AviationDualTimeApp" pc="268436147" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="71" parent="globals/AviationDualTimeApp" pc="268436171" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="72" parent="globals/AviationDualTimeApp" pc="268436195" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="73" parent="globals/AviationDualTimeApp" pc="268436219" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="74" parent="globals/AviationDualTimeApp" pc="268436243" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="75" parent="globals/AviationDualTimeApp" pc="268436267" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="76" parent="globals/AviationDualTimeApp" pc="268436291" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="78" parent="globals/AviationDualTimeApp" pc="268436315" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="81" parent="globals/AviationDualTimeApp" pc="268436371" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="83" parent="globals/AviationDualTimeApp" pc="268436382" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="86" parent="globals/AviationDualTimeApp" pc="268436390" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="89" parent="globals/AviationDualTimeApp" pc="268436413" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="90" parent="globals/AviationDualTimeApp" pc="268436421" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="10" lineNum="93" parent="globals/AviationDualTimeApp" pc="268436431" symbol="onSettingsChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="96" parent="globals/AviationDualTimeApp" pc="268436443" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="99" parent="globals/AviationDualTimeApp" pc="268436445" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="100" parent="globals/AviationDualTimeApp" pc="268436455" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="101" parent="globals/AviationDualTimeApp" pc="268436466" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="102" parent="globals/AviationDualTimeApp" pc="268436477" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="103" parent="globals/AviationDualTimeApp" pc="268436491" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="104" parent="globals/AviationDualTimeApp" pc="268436502" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="105" parent="globals/AviationDualTimeApp" pc="268436517" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="106" parent="globals/AviationDualTimeApp" pc="268436528" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="107" parent="globals/AviationDualTimeApp" pc="268436543" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="108" parent="globals/AviationDualTimeApp" pc="268436554" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="109" parent="globals/AviationDualTimeApp" pc="268436568" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="110" parent="globals/AviationDualTimeApp" pc="268436579" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="112" parent="globals/AviationDualTimeApp" pc="268436592" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="115" parent="globals/AviationDualTimeApp" pc="268436604" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="116" parent="globals/AviationDualTimeApp" pc="268436614" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="117" parent="globals/AviationDualTimeApp" pc="268436629" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="118" parent="globals/AviationDualTimeApp" pc="268436640" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="119" parent="globals/AviationDualTimeApp" pc="268436655" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="120" parent="globals/AviationDualTimeApp" pc="268436666" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="121" parent="globals/AviationDualTimeApp" pc="268436680" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="122" parent="globals/AviationDualTimeApp" pc="268436691" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="123" parent="globals/AviationDualTimeApp" pc="268436702" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="124" parent="globals/AviationDualTimeApp" pc="268436713" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="125" parent="globals/AviationDualTimeApp" pc="268436728" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="126" parent="globals/AviationDualTimeApp" pc="268436739" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="127" parent="globals/AviationDualTimeApp" pc="268436754" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="128" parent="globals/AviationDualTimeApp" pc="268436765" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="129" parent="globals/AviationDualTimeApp" pc="268436780" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="130" parent="globals/AviationDualTimeApp" pc="268436791" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="131" parent="globals/AviationDualTimeApp" pc="268436806" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="132" parent="globals/AviationDualTimeApp" pc="268436817" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="133" parent="globals/AviationDualTimeApp" pc="268436831" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="134" parent="globals/AviationDualTimeApp" pc="268436842" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="135" parent="globals/AviationDualTimeApp" pc="268436856" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="136" parent="globals/AviationDualTimeApp" pc="268436867" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="137" parent="globals/AviationDualTimeApp" pc="268436881" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="138" parent="globals/AviationDualTimeApp" pc="268436892" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="139" parent="globals/AviationDualTimeApp" pc="268436905" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="140" parent="globals/AviationDualTimeApp" pc="268436916" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="142" parent="globals/AviationDualTimeApp" pc="268436931" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="146" parent="globals/AviationDualTimeApp" pc="268436943" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="147" parent="globals/AviationDualTimeApp" pc="268436953" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="148" parent="globals/AviationDualTimeApp" pc="268436965" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="149" parent="globals/AviationDualTimeApp" pc="268436976" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="150" parent="globals/AviationDualTimeApp" pc="268436987" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="151" parent="globals/AviationDualTimeApp" pc="268436998" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="152" parent="globals/AviationDualTimeApp" pc="268437013" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="153" parent="globals/AviationDualTimeApp" pc="268437024" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="157" parent="globals/AviationDualTimeApp" pc="268437039" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="158" parent="globals/AviationDualTimeApp" pc="268437049" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="159" parent="globals/AviationDualTimeApp" pc="268437064" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="160" parent="globals/AviationDualTimeApp" pc="268437075" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="161" parent="globals/AviationDualTimeApp" pc="268437089" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="162" parent="globals/AviationDualTimeApp" pc="268437100" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="163" parent="globals/AviationDualTimeApp" pc="268437111" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="164" parent="globals/AviationDualTimeApp" pc="268437122" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="165" parent="globals/AviationDualTimeApp" pc="268437137" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="166" parent="globals/AviationDualTimeApp" pc="268437148" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="167" parent="globals/AviationDualTimeApp" pc="268437163" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="168" parent="globals/AviationDualTimeApp" pc="268437174" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="169" parent="globals/AviationDualTimeApp" pc="268437188" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="170" parent="globals/AviationDualTimeApp" pc="268437199" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="171" parent="globals/AviationDualTimeApp" pc="268437213" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="11" lineNum="172" parent="globals/AviationDualTimeApp" pc="268437224" symbol="colorUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="12" lineNum="36" parent="globals/AviationDualTimeApp" pc="268437240" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="12" lineNum="38" parent="globals/AviationDualTimeApp" pc="268437242" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeApp.mc" id="12" lineNum="39" parent="globals/AviationDualTimeApp" pc="268437254" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="13" lineNum="361" parent="globals/AviationDualTimeView" pc="268437262" symbol="alarmDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="13" lineNum="363" parent="globals/AviationDualTimeView" pc="268437265" symbol="alarmDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="13" lineNum="365" parent="globals/AviationDualTimeView" pc="268437282" symbol="alarmDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="13" lineNum="366" parent="globals/AviationDualTimeView" pc="268437289" symbol="alarmDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="13" lineNum="368" parent="globals/AviationDualTimeView" pc="268437304" symbol="alarmDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="306" parent="globals/AviationDualTimeView" pc="268437317" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="309" parent="globals/AviationDualTimeView" pc="268437320" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="312" parent="globals/AviationDualTimeView" pc="268437332" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="314" parent="globals/AviationDualTimeView" pc="268437339" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="315" parent="globals/AviationDualTimeView" pc="268437352" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="316" parent="globals/AviationDualTimeView" pc="268437366" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="318" parent="globals/AviationDualTimeView" pc="268437403" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="321" parent="globals/AviationDualTimeView" pc="268437440" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="324" parent="globals/AviationDualTimeView" pc="268437462" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="14" lineNum="327" parent="globals/AviationDualTimeView" pc="268437488" symbol="makeZuluLabel"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="15" lineNum="417" parent="globals/AviationDualTimeView" pc="268437501" symbol="stepsDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="15" lineNum="421" parent="globals/AviationDualTimeView" pc="268437504" symbol="stepsDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="15" lineNum="422" parent="globals/AviationDualTimeView" pc="268437513" symbol="stepsDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="15" lineNum="423" parent="globals/AviationDualTimeView" pc="268437525" symbol="stepsDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="15" lineNum="426" parent="globals/AviationDualTimeView" pc="268437541" symbol="stepsDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="463" parent="globals/AviationDualTimeView" pc="268437578" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="466" parent="globals/AviationDualTimeView" pc="268437580" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="468" parent="globals/AviationDualTimeView" pc="268437588" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="469" parent="globals/AviationDualTimeView" pc="268437595" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="471" parent="globals/AviationDualTimeView" pc="268437612" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="472" parent="globals/AviationDualTimeView" pc="268437633" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="473" parent="globals/AviationDualTimeView" pc="268437677" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="474" parent="globals/AviationDualTimeView" pc="268437694" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="476" parent="globals/AviationDualTimeView" pc="268437735" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="477" parent="globals/AviationDualTimeView" pc="268437779" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="478" parent="globals/AviationDualTimeView" pc="268437796" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="481" parent="globals/AviationDualTimeView" pc="268437837" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="483" parent="globals/AviationDualTimeView" pc="268437845" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="484" parent="globals/AviationDualTimeView" pc="268437852" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="486" parent="globals/AviationDualTimeView" pc="268437859" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="487" parent="globals/AviationDualTimeView" pc="268437876" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="488" parent="globals/AviationDualTimeView" pc="268437914" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="492" parent="globals/AviationDualTimeView" pc="268437955" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="494" parent="globals/AviationDualTimeView" pc="268437962" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="495" parent="globals/AviationDualTimeView" pc="268437979" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="496" parent="globals/AviationDualTimeView" pc="268438017" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="502" parent="globals/AviationDualTimeView" pc="268438058" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="503" parent="globals/AviationDualTimeView" pc="268438075" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="504" parent="globals/AviationDualTimeView" pc="268438082" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="506" parent="globals/AviationDualTimeView" pc="268438089" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="508" parent="globals/AviationDualTimeView" pc="268438110" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="509" parent="globals/AviationDualTimeView" pc="268438154" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="510" parent="globals/AviationDualTimeView" pc="268438171" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="511" parent="globals/AviationDualTimeView" pc="268438209" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="515" parent="globals/AviationDualTimeView" pc="268438250" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="516" parent="globals/AviationDualTimeView" pc="268438294" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="517" parent="globals/AviationDualTimeView" pc="268438311" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="518" parent="globals/AviationDualTimeView" pc="268438352" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="521" parent="globals/AviationDualTimeView" pc="268438390" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="523" parent="globals/AviationDualTimeView" pc="268438398" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="524" parent="globals/AviationDualTimeView" pc="268438405" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="525" parent="globals/AviationDualTimeView" pc="268438422" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="526" parent="globals/AviationDualTimeView" pc="268438460" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="530" parent="globals/AviationDualTimeView" pc="268438501" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="532" parent="globals/AviationDualTimeView" pc="268438508" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="533" parent="globals/AviationDualTimeView" pc="268438525" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="16" lineNum="534" parent="globals/AviationDualTimeView" pc="268438563" symbol="mainZone"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="17" lineNum="432" parent="globals/AviationDualTimeView" pc="268438602" symbol="dateDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="17" lineNum="434" parent="globals/AviationDualTimeView" pc="268438605" symbol="dateDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="17" lineNum="435" parent="globals/AviationDualTimeView" pc="268438636" symbol="dateDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="374" parent="globals/AviationDualTimeView" pc="268438692" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="377" parent="globals/AviationDualTimeView" pc="268438694" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="378" parent="globals/AviationDualTimeView" pc="268438713" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="379" parent="globals/AviationDualTimeView" pc="268438730" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="380" parent="globals/AviationDualTimeView" pc="268438740" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="382" parent="globals/AviationDualTimeView" pc="268438785" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="383" parent="globals/AviationDualTimeView" pc="268438812" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="385" parent="globals/AviationDualTimeView" pc="268438857" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="387" parent="globals/AviationDualTimeView" pc="268438867" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="388" parent="globals/AviationDualTimeView" pc="268438876" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="390" parent="globals/AviationDualTimeView" pc="268438913" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="392" parent="globals/AviationDualTimeView" pc="268438955" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="395" parent="globals/AviationDualTimeView" pc="268438991" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="396" parent="globals/AviationDualTimeView" pc="268439005" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="397" parent="globals/AviationDualTimeView" pc="268439025" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="398" parent="globals/AviationDualTimeView" pc="268439039" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="400" parent="globals/AviationDualTimeView" pc="268439059" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="404" parent="globals/AviationDualTimeView" pc="268439078" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="405" parent="globals/AviationDualTimeView" pc="268439092" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="407" parent="globals/AviationDualTimeView" pc="268439108" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="411" parent="globals/AviationDualTimeView" pc="268439128" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="18" lineNum="412" parent="globals/AviationDualTimeView" pc="268439142" symbol="battDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="124" parent="globals/AviationDualTimeView" pc="268439155" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="126" parent="globals/AviationDualTimeView" pc="268439157" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="127" parent="globals/AviationDualTimeView" pc="268439171" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="130" parent="globals/AviationDualTimeView" pc="268439185" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="131" parent="globals/AviationDualTimeView" pc="268439205" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="133" parent="globals/AviationDualTimeView" pc="268439213" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="136" parent="globals/AviationDualTimeView" pc="268439234" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="137" parent="globals/AviationDualTimeView" pc="268439245" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="139" parent="globals/AviationDualTimeView" pc="268439283" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="140" parent="globals/AviationDualTimeView" pc="268439299" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="141" parent="globals/AviationDualTimeView" pc="268439306" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="143" parent="globals/AviationDualTimeView" pc="268439347" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="145" parent="globals/AviationDualTimeView" pc="268439358" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="146" parent="globals/AviationDualTimeView" pc="268439365" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="147" parent="globals/AviationDualTimeView" pc="268439382" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="149" parent="globals/AviationDualTimeView" pc="268439420" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="150" parent="globals/AviationDualTimeView" pc="268439428" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="151" parent="globals/AviationDualTimeView" pc="268439435" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="152" parent="globals/AviationDualTimeView" pc="268439451" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="155" parent="globals/AviationDualTimeView" pc="268439492" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="157" parent="globals/AviationDualTimeView" pc="268439521" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="161" parent="globals/AviationDualTimeView" pc="268439538" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="162" parent="globals/AviationDualTimeView" pc="268439549" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="164" parent="globals/AviationDualTimeView" pc="268439590" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="165" parent="globals/AviationDualTimeView" pc="268439606" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="166" parent="globals/AviationDualTimeView" pc="268439613" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="168" parent="globals/AviationDualTimeView" pc="268439654" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="170" parent="globals/AviationDualTimeView" pc="268439665" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="171" parent="globals/AviationDualTimeView" pc="268439672" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="172" parent="globals/AviationDualTimeView" pc="268439689" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="174" parent="globals/AviationDualTimeView" pc="268439727" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="175" parent="globals/AviationDualTimeView" pc="268439735" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="176" parent="globals/AviationDualTimeView" pc="268439742" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="19" lineNum="177" parent="globals/AviationDualTimeView" pc="268439758" symbol="onLayout"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="333" parent="globals/AviationDualTimeView" pc="268439800" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="337" parent="globals/AviationDualTimeView" pc="268439803" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="338" parent="globals/AviationDualTimeView" pc="268439813" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="340" parent="globals/AviationDualTimeView" pc="268439830" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="341" parent="globals/AviationDualTimeView" pc="268439845" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="343" parent="globals/AviationDualTimeView" pc="268439851" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="346" parent="globals/AviationDualTimeView" pc="268439857" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="347" parent="globals/AviationDualTimeView" pc="268439867" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="349" parent="globals/AviationDualTimeView" pc="268439873" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="353" parent="globals/AviationDualTimeView" pc="268439876" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="354" parent="globals/AviationDualTimeView" pc="268439881" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="20" lineNum="356" parent="globals/AviationDualTimeView" pc="268439896" symbol="notesDisp"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="260" parent="globals/AviationDualTimeView" pc="268439909" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="263" parent="globals/AviationDualTimeView" pc="268439912" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="264" parent="globals/AviationDualTimeView" pc="268439943" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="265" parent="globals/AviationDualTimeView" pc="268439951" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="268" parent="globals/AviationDualTimeView" pc="268439959" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="269" parent="globals/AviationDualTimeView" pc="268439973" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="271" parent="globals/AviationDualTimeView" pc="268439990" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="274" parent="globals/AviationDualTimeView" pc="268439997" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="277" parent="globals/AviationDualTimeView" pc="268440011" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="280" parent="globals/AviationDualTimeView" pc="268440018" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="281" parent="globals/AviationDualTimeView" pc="268440028" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="283" parent="globals/AviationDualTimeView" pc="268440056" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="287" parent="globals/AviationDualTimeView" pc="268440076" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="289" parent="globals/AviationDualTimeView" pc="268440087" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="290" parent="globals/AviationDualTimeView" pc="268440094" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="294" parent="globals/AviationDualTimeView" pc="268440104" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="295" parent="globals/AviationDualTimeView" pc="268440112" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="296" parent="globals/AviationDualTimeView" pc="268440118" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="297" parent="globals/AviationDualTimeView" pc="268440125" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="298" parent="globals/AviationDualTimeView" pc="268440135" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="299" parent="globals/AviationDualTimeView" pc="268440143" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="21" lineNum="302" parent="globals/AviationDualTimeView" pc="268440153" symbol="calcZuluTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="22" lineNum="241" parent="globals/AviationDualTimeView" pc="268440216" symbol="normalTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="22" lineNum="244" parent="globals/AviationDualTimeView" pc="268440219" symbol="normalTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="22" lineNum="245" parent="globals/AviationDualTimeView" pc="268440231" symbol="normalTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="22" lineNum="248" parent="globals/AviationDualTimeView" pc="268440239" symbol="normalTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="22" lineNum="249" parent="globals/AviationDualTimeView" pc="268440259" symbol="normalTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="22" lineNum="251" parent="globals/AviationDualTimeView" pc="268440334" symbol="normalTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="22" lineNum="252" parent="globals/AviationDualTimeView" pc="268440342" symbol="normalTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="22" lineNum="254" parent="globals/AviationDualTimeView" pc="268440352" symbol="normalTime"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="90" parent="globals/AviationDualTimeView" pc="268440408" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="92" parent="globals/AviationDualTimeView" pc="268440411" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="93" parent="globals/AviationDualTimeView" pc="268440422" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="94" parent="globals/AviationDualTimeView" pc="268440451" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="95" parent="globals/AviationDualTimeView" pc="268440460" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="97" parent="globals/AviationDualTimeView" pc="268440500" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="98" parent="globals/AviationDualTimeView" pc="268440511" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="99" parent="globals/AviationDualTimeView" pc="268440540" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="100" parent="globals/AviationDualTimeView" pc="268440549" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="101" parent="globals/AviationDualTimeView" pc="268440561" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="103" parent="globals/AviationDualTimeView" pc="268440577" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="104" parent="globals/AviationDualTimeView" pc="268440595" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="106" parent="globals/AviationDualTimeView" pc="268440623" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="107" parent="globals/AviationDualTimeView" pc="268440634" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="108" parent="globals/AviationDualTimeView" pc="268440663" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="109" parent="globals/AviationDualTimeView" pc="268440672" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="110" parent="globals/AviationDualTimeView" pc="268440684" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="112" parent="globals/AviationDualTimeView" pc="268440703" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="113" parent="globals/AviationDualTimeView" pc="268440714" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="114" parent="globals/AviationDualTimeView" pc="268440743" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="115" parent="globals/AviationDualTimeView" pc="268440752" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="23" lineNum="118" parent="globals/AviationDualTimeView" pc="268440767" symbol="onComplicationChanged"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="54" parent="globals/AviationDualTimeView" pc="268440786" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="55" parent="globals/AviationDualTimeView" pc="268440788" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="57" parent="globals/AviationDualTimeView" pc="268440800" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="59" parent="globals/AviationDualTimeView" pc="268440819" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="60" parent="globals/AviationDualTimeView" pc="268440827" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="61" parent="globals/AviationDualTimeView" pc="268440858" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="62" parent="globals/AviationDualTimeView" pc="268440889" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="63" parent="globals/AviationDualTimeView" pc="268440920" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="64" parent="globals/AviationDualTimeView" pc="268440951" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="66" parent="globals/AviationDualTimeView" pc="268440982" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="67" parent="globals/AviationDualTimeView" pc="268441006" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="68" parent="globals/AviationDualTimeView" pc="268441015" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="71" parent="globals/AviationDualTimeView" pc="268441036" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="72" parent="globals/AviationDualTimeView" pc="268441060" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="73" parent="globals/AviationDualTimeView" pc="268441069" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="76" parent="globals/AviationDualTimeView" pc="268441090" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="77" parent="globals/AviationDualTimeView" pc="268441114" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="78" parent="globals/AviationDualTimeView" pc="268441123" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="81" parent="globals/AviationDualTimeView" pc="268441144" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="82" parent="globals/AviationDualTimeView" pc="268441168" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="83" parent="globals/AviationDualTimeView" pc="268441177" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="24" lineNum="86" parent="globals/AviationDualTimeView" pc="268441198" symbol="initialize"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="187" parent="globals/AviationDualTimeView" pc="268441228" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="190" parent="globals/AviationDualTimeView" pc="268441230" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="191" parent="globals/AviationDualTimeView" pc="268441250" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="193" parent="globals/AviationDualTimeView" pc="268441258" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="195" parent="globals/AviationDualTimeView" pc="268441279" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="196" parent="globals/AviationDualTimeView" pc="268441290" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="198" parent="globals/AviationDualTimeView" pc="268441328" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="199" parent="globals/AviationDualTimeView" pc="268441344" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="200" parent="globals/AviationDualTimeView" pc="268441351" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="202" parent="globals/AviationDualTimeView" pc="268441392" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="204" parent="globals/AviationDualTimeView" pc="268441403" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="205" parent="globals/AviationDualTimeView" pc="268441410" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="206" parent="globals/AviationDualTimeView" pc="268441427" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="208" parent="globals/AviationDualTimeView" pc="268441465" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="209" parent="globals/AviationDualTimeView" pc="268441473" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="210" parent="globals/AviationDualTimeView" pc="268441480" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="211" parent="globals/AviationDualTimeView" pc="268441496" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="214" parent="globals/AviationDualTimeView" pc="268441537" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="216" parent="globals/AviationDualTimeView" pc="268441566" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="220" parent="globals/AviationDualTimeView" pc="268441583" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="221" parent="globals/AviationDualTimeView" pc="268441594" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="223" parent="globals/AviationDualTimeView" pc="268441635" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="224" parent="globals/AviationDualTimeView" pc="268441651" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="225" parent="globals/AviationDualTimeView" pc="268441658" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="227" parent="globals/AviationDualTimeView" pc="268441699" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="229" parent="globals/AviationDualTimeView" pc="268441710" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="230" parent="globals/AviationDualTimeView" pc="268441717" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="231" parent="globals/AviationDualTimeView" pc="268441734" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="233" parent="globals/AviationDualTimeView" pc="268441772" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="234" parent="globals/AviationDualTimeView" pc="268441780" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="235" parent="globals/AviationDualTimeView" pc="268441787" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="25" lineNum="236" parent="globals/AviationDualTimeView" pc="268441803" symbol="onUpdate"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="441" parent="globals/AviationDualTimeView" pc="268441845" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="443" parent="globals/AviationDualTimeView" pc="268441848" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="444" parent="globals/AviationDualTimeView" pc="268441857" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="445" parent="globals/AviationDualTimeView" pc="268441866" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="446" parent="globals/AviationDualTimeView" pc="268441873" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="447" parent="globals/AviationDualTimeView" pc="268441880" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="448" parent="globals/AviationDualTimeView" pc="268441903" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="449" parent="globals/AviationDualTimeView" pc="268441915" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="451" parent="globals/AviationDualTimeView" pc="268441923" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="453" parent="globals/AviationDualTimeView" pc="268441927" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="455" parent="globals/AviationDualTimeView" pc="268441937" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="456" parent="globals/AviationDualTimeView" pc="268441949" symbol="secondsDisplay"/>
+<entry filename="/Users/jeffreyforste/Garmin Projects/AviationDualTime/source/AviationDualTimeView.mc" id="26" lineNum="457" parent="globals/AviationDualTimeView" pc="268441966" symbol="secondsDisplay"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="79" symbol="DKRed"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="89" symbol="Orange"/>
+<entry field="true" id="34" symbol="batId"/>
+<entry field="true" id="90" symbol="Pink"/>
+<entry field="true" id="86" symbol="LocalOrZuluTitle"/>
+<entry id="41" method="true" symbol="calcZuluTime"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="149" symbol="zuluLabel"/>
+<entry field="true" id="99" symbol="ShowNotesPrompt"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="47" method="true" symbol="makeZuluLabel"/>
+<entry id="7" object="true" symbol="AviationDualTimeView"/>
+<entry field="true" id="13" symbol="myBG"/>
+<entry field="true" id="85" symbol="LocalOrZuluPrompt"/>
+<entry field="true" id="62" symbol="wHeight"/>
+<entry field="true" id="45" symbol="mSteps"/>
+<entry field="true" id="80" symbol="DispBattPrompt"/>
+<entry field="true" id="66" symbol="wxNow"/>
+<entry field="true" id="14" symbol="myBackgroundColor"/>
+<entry field="true" id="11" symbol="dispSecs"/>
+<entry field="true" id="43" symbol="dateString"/>
+<entry id="61" method="true" symbol="stepsDisp"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="148" symbol="ZuluTitle"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="97" symbol="ShadOptTitle"/>
+<entry field="true" id="64" symbol="wxComp"/>
+<entry field="true" id="106" symbol="TouchOffTitle"/>
+<entry field="true" id="44" symbol="hasComps"/>
+<entry field="true" id="69" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="4" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="81" symbol="DispBattTitle"/>
+<entry field="true" id="107" symbol="White"/>
+<entry field="true" id="22" symbol="clockColorNum"/>
+<entry field="true" id="94" symbol="SecOptTitle"/>
+<entry field="true" id="60" symbol="stepY"/>
+<entry field="true" id="104" symbol="TimeStepTitle"/>
+<entry field="true" id="144" symbol="ZTime"/>
+<entry field="true" id="71" symbol="Black"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="88" symbol="NoShad"/>
+<entry field="true" id="59" symbol="stepString"/>
+<entry field="true" id="98" symbol="ShowNotes"/>
+<entry id="49" method="true" symbol="normalTime"/>
+<entry field="true" id="101" symbol="SubColorPrompt"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="5" object="true" symbol="AviationDualTimeApp"/>
+<entry field="true" id="77" symbol="DKGray"/>
+<entry field="true" id="29" symbol="oldSubColorNum"/>
+<entry field="true" id="33" symbol="batComp"/>
+<entry id="56" method="true" symbol="secondsDisplay"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="42" method="true" symbol="dateDisp"/>
+<entry field="true" id="20" symbol="touchOff"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry field="true" id="73" symbol="Blue"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="51" symbol="noteId"/>
+<entry field="true" id="53" symbol="noteString"/>
+<entry field="true" id="76" symbol="DKBlue"/>
+<entry field="true" id="23" symbol="clockShadNum"/>
+<entry field="true" id="110" symbol="YesBat"/>
+<entry field="true" id="100" symbol="ShowNotesTitle"/>
+<entry field="true" id="27" symbol="oldClockShadNum"/>
+<entry field="true" id="30" symbol="subColorNum"/>
+<entry field="true" id="58" symbol="stepId"/>
+<entry field="true" id="142" symbol="Z9"/>
+<entry field="true" id="141" symbol="Z8"/>
+<entry field="true" id="140" symbol="Z7"/>
+<entry field="true" id="139" symbol="Z6"/>
+<entry field="true" id="138" symbol="Z5"/>
+<entry field="true" id="137" symbol="Z4"/>
+<entry field="true" id="134" symbol="Z3"/>
+<entry field="true" id="123" symbol="Z2"/>
+<entry field="true" id="112" symbol="Z1"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="38" method="true" symbol="battDisp"/>
+<entry field="true" id="74" symbol="ClockColorPrompt"/>
+<entry field="true" id="87" symbol="NoBat"/>
+<entry field="true" id="8" symbol="ForC"/>
+<entry field="true" id="9" symbol="clockColorSet"/>
+<entry field="true" id="28" symbol="oldMyBackgroundColor"/>
+<entry field="true" id="93" symbol="SecOptPrompt"/>
+<entry id="6" object="true" symbol="AviationDualTimeDelegate"/>
+<entry field="true" id="32" symbol="alarmString"/>
+<entry field="true" id="40" symbol="calcTime"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="52" symbol="noteSets"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="92" symbol="Red"/>
+<entry id="24" method="true" symbol="colorUpdate"/>
+<entry field="true" id="136" symbol="Z31"/>
+<entry field="true" id="135" symbol="Z30"/>
+<entry field="true" id="133" symbol="Z29"/>
+<entry field="true" id="132" symbol="Z28"/>
+<entry field="true" id="131" symbol="Z27"/>
+<entry field="true" id="130" symbol="Z26"/>
+<entry field="true" id="129" symbol="Z25"/>
+<entry field="true" id="128" symbol="Z24"/>
+<entry field="true" id="127" symbol="Z23"/>
+<entry field="true" id="126" symbol="Z22"/>
+<entry field="true" id="125" symbol="Z21"/>
+<entry field="true" id="124" symbol="Z20"/>
+<entry field="true" id="122" symbol="Z19"/>
+<entry field="true" id="121" symbol="Z18"/>
+<entry field="true" id="120" symbol="Z17"/>
+<entry field="true" id="119" symbol="Z16"/>
+<entry field="true" id="118" symbol="Z15"/>
+<entry field="true" id="117" symbol="Z14"/>
+<entry field="true" id="116" symbol="Z13"/>
+<entry field="true" id="57" symbol="stepComp"/>
+<entry field="true" id="115" symbol="Z12"/>
+<entry field="true" id="114" symbol="Z11"/>
+<entry field="true" id="113" symbol="Z10"/>
+<entry field="true" id="48" symbol="myZuluLabel"/>
+<entry id="55" method="true" symbol="onComplicationChanged"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="54" method="true" symbol="notesDisp"/>
+<entry field="true" id="50" symbol="noteComp"/>
+<entry field="true" id="68" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry field="true" id="25" symbol="colorsUpdated"/>
+<entry field="true" id="143" symbol="ZSteps"/>
+<entry field="true" id="16" symbol="showBat"/>
+<entry field="true" id="19" symbol="timeOrStep"/>
+<entry field="true" id="67" symbol="zuluTime"/>
+<entry field="true" id="111" symbol="YesWx"/>
+<entry field="true" id="65" symbol="wxId"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="70" symbol="BackgroundColorTitle"/>
+<entry field="true" id="102" symbol="SubColorTitle"/>
+<entry id="8391962" module="true" symbol="Complications"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="91" symbol="Purple"/>
+<entry field="true" id="63" symbol="wWidth"/>
+<entry field="true" id="10" symbol="clockShadSet"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="21" symbol="view"/>
+<entry field="true" id="103" symbol="TimeStepPrompt"/>
+<entry field="true" id="35" symbol="batLoad"/>
+<entry field="true" id="109" symbol="Yellow"/>
+<entry field="true" id="12" symbol="localOrZulu"/>
+<entry id="31" method="true" symbol="alarmDisp"/>
+<entry field="true" id="18" symbol="subColorSet"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry field="true" id="75" symbol="ClockColorTitle"/>
+<entry id="8392031" method="true" symbol="onPress"/>
+<entry field="true" id="108" symbol="WhiteShad"/>
+<entry field="true" id="26" symbol="oldClockColorNum"/>
+<entry field="true" id="17" symbol="showNotes"/>
+<entry field="true" id="147" symbol="ZuluOffsetTitle"/>
+<entry field="true" id="78" symbol="DKGreen"/>
+<entry field="true" id="83" symbol="Green"/>
+<entry field="true" id="146" symbol="ZuluOffsetPrompt"/>
+<entry field="true" id="8391880" symbol="SCREEN_SHAPE_SEMI_OCTAGON"/>
+<entry field="true" id="72" symbol="BlackShad"/>
+<entry field="true" id="39" symbol="calId"/>
+<entry field="true" id="96" symbol="ShadOptPrompt"/>
+<entry field="true" id="15" symbol="offSetAmmt"/>
+<entry id="46" method="true" symbol="mainZone"/>
+<entry field="true" id="95" symbol="ShadOpt"/>
+<entry field="true" id="37" symbol="batY"/>
+<entry field="true" id="84" symbol="LTGray"/>
+<entry field="true" id="105" symbol="TouchOffPrompt"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="145" symbol="ZuluOffset"/>
+<entry field="true" id="82" symbol="GrayShad"/>
+<entry field="true" id="36" symbol="batString"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435851" name="evt" stackId="1" startPc="268435537"/>
+<entry endPc="268435850" name="c" stackId="2" startPc="268435540"/>
+<entry endPc="268435850" name="batY" stackId="3" startPc="268435540"/>
+<entry endPc="268435850" name="stepY" stackId="4" startPc="268435540"/>
+<entry arg="true" endPc="268435875" name="v" stackId="1" startPc="268435852"/>
+<entry endPc="268437315" name="alSets" stackId="1" startPc="268437265"/>
+<entry endPc="268437484" name="myParams" stackId="1" startPc="268437332"/>
+<entry endPc="268437484" name="myFormat" stackId="2" startPc="268437332"/>
+<entry endPc="268437576" name="stepLoad" stackId="1" startPc="268437504"/>
+<entry arg="true" endPc="268438601" name="dc" stackId="1" startPc="268437578"/>
+<entry endPc="268438690" name="dateLoad" stackId="1" startPc="268438605"/>
+<entry arg="true" endPc="268439154" name="dc" stackId="1" startPc="268438692"/>
+<entry arg="true" endPc="268439799" name="dc" stackId="1" startPc="268439155"/>
+<entry endPc="268439907" name="anyNotes" stackId="1" startPc="268439803"/>
+<entry endPc="268440214" name="zTime" stackId="1" startPc="268439912"/>
+<entry endPc="268440214" name="myOffset" stackId="2" startPc="268439912"/>
+<entry endPc="268440214" name="minOffset" stackId="3" startPc="268439912"/>
+<entry endPc="268440214" name="convLeftoverOffset" stackId="4" startPc="268439912"/>
+<entry endPc="268440214" name="convToOffset" stackId="5" startPc="268439912"/>
+<entry endPc="268440214" name="zuluToSecs" stackId="6" startPc="268439912"/>
+<entry endPc="268440214" name="convToSecs" stackId="7" startPc="268439912"/>
+<entry endPc="268440406" name="clockTime" stackId="1" startPc="268440219"/>
+<entry endPc="268440406" name="hours" stackId="2" startPc="268440219"/>
+<entry arg="true" endPc="268440785" name="compId" stackId="1" startPc="268440408"/>
+<entry endPc="268440573" name="stepLoad" stackId="2" startPc="268440549"/>
+<entry endPc="268440696" name="tempNotes" stackId="3" startPc="268440672"/>
+<entry arg="true" endPc="268441844" name="dc" stackId="1" startPc="268441228"/>
+<entry arg="true" endPc="268441988" name="dc" stackId="1" startPc="268441845"/>
+<entry endPc="268441987" name="screenWidth" stackId="2" startPc="268441848"/>
+<entry endPc="268441987" name="screenHeight" stackId="3" startPc="268441848"/>
+<entry endPc="268441987" name="centerX" stackId="4" startPc="268441848"/>
+<entry endPc="268441987" name="centerY" stackId="5" startPc="268441848"/>
+<entry endPc="268441987" name="mRadius" stackId="6" startPc="268441848"/>
+<entry endPc="268441987" name="clockTime" stackId="7" startPc="268441848"/>
+<entry endPc="268441987" name="mSeconds" stackId="8" startPc="268441848"/>
+<entry endPc="268441987" name="mPen" stackId="9" startPc="268441848"/>
+<entry endPc="268441987" name="mArc" stackId="10" startPc="268441848"/>
+</localVars>
+<deviceInfo deviceVersion="2b6c471e17df7260da82074f89851bcd69477a40" partNumber="006-B4575-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="LocalOrZuluTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ClockColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesWx"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="LocalOrZuluPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Yellow"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BlackShad"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DispBattPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShadOpt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NoBat"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowNotesTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SubColorPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TimeStepTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z13"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z12"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="LTGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z11"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SecOptTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z10"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ZuluOffset"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="zuluLabel"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="YesBat"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NoShad"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Red"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TouchOffTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ZuluOffsetTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Orange"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowNotesPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ClockColorPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Purple"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z20"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z24"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z23"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DKRed"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="WhiteShad"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z22"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SecOptPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z21"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ZTime"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DKGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TouchOffPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Blue"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SubColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z17"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z16"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z15"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z14"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Black"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShadOptPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TimeStepPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z19"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z18"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z31"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z30"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ZuluOffsetPrompt"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="GrayShad"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="batString"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="White"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Pink"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Green"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z6"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z5"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z8"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ZSteps"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z7"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z9"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ZuluTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DKBlue"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z28"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DispBattTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z27"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowNotes"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z26"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShadOptTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z25"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z2"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DKGreen"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z4"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z29"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Z3"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/AviationDualTimeDelegate" offset="242" parentId="globals" symbolId="AviationDualTimeDelegate" type="class"/>
+<dataEntry label="globals/Rez" offset="304" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/AviationDualTimeApp" offset="348" parentId="globals" symbolId="AviationDualTimeApp" type="class"/>
+<dataEntry label="globals/AviationDualTimeView" offset="509" parentId="globals" symbolId="AviationDualTimeView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="904" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="939" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435492" name="&lt;init&gt;" parent="AviationDualTimeDelegate" startPc="268435481">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="Rez" startPc="268435493">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="AviationDualTimeApp" startPc="268435513">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="AviationDualTimeView" startPc="268435525">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435851" name="onPress" parent="AviationDualTimeDelegate" startPc="268435537">
+<param id="evt"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435875" name="initialize" parent="AviationDualTimeDelegate" startPc="268435852">
+<param id="v"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435949" name="getInitialView" parent="AviationDualTimeApp" startPc="268435876">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435952" name="onStart" parent="AviationDualTimeApp" startPc="268435950">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436442" name="onSettingsChanged" parent="AviationDualTimeApp" startPc="268435953">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437239" name="colorUpdate" parent="AviationDualTimeApp" startPc="268436443">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437261" name="initialize" parent="AviationDualTimeApp" startPc="268437240">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437316" name="alarmDisp" parent="AviationDualTimeView" startPc="268437262">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437500" name="makeZuluLabel" parent="AviationDualTimeView" startPc="268437317">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437577" name="stepsDisp" parent="AviationDualTimeView" startPc="268437501">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438601" name="mainZone" parent="AviationDualTimeView" startPc="268437578">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438691" name="dateDisp" parent="AviationDualTimeView" startPc="268438602">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439154" name="battDisp" parent="AviationDualTimeView" startPc="268438692">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439799" name="onLayout" parent="AviationDualTimeView" startPc="268439155">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439908" name="notesDisp" parent="AviationDualTimeView" startPc="268439800">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440215" name="calcZuluTime" parent="AviationDualTimeView" startPc="268439909">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440407" name="normalTime" parent="AviationDualTimeView" startPc="268440216">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440785" name="onComplicationChanged" parent="AviationDualTimeView" startPc="268440408">
+<param id="compId"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441227" name="initialize" parent="AviationDualTimeView" startPc="268440786">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441844" name="onUpdate" parent="AviationDualTimeView" startPc="268441228">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441988" name="secondsDisplay" parent="AviationDualTimeView" startPc="268441845">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

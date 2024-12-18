@@ -1,0 +1,108 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var Z18 as Symbol;
+        (:initialized) var Z17 as Symbol;
+        (:initialized) var Z19 as Symbol;
+        (:initialized) var ZuluTitle as Symbol;
+        (:initialized) var ZuluOffsetPrompt as Symbol;
+        (:initialized) var NoBat as Symbol;
+        (:initialized) var Black as Symbol;
+        (:initialized) var GrayShad as Symbol;
+        (:initialized) var Orange as Symbol;
+        (:initialized) var ShadOptPrompt as Symbol;
+        (:initialized) var ZuluOffsetTitle as Symbol;
+        (:initialized) var batString as Symbol;
+        (:initialized) var Z1 as Symbol;
+        (:initialized) var Z2 as Symbol;
+        (:initialized) var Z21 as Symbol;
+        (:initialized) var ShadOpt as Symbol;
+        (:initialized) var Z3 as Symbol;
+        (:initialized) var Z20 as Symbol;
+        (:initialized) var Z4 as Symbol;
+        (:initialized) var Z23 as Symbol;
+        (:initialized) var Z5 as Symbol;
+        (:initialized) var Z22 as Symbol;
+        (:initialized) var DispBattPrompt as Symbol;
+        (:initialized) var Z6 as Symbol;
+        (:initialized) var Z25 as Symbol;
+        (:initialized) var YesWx as Symbol;
+        (:initialized) var Z7 as Symbol;
+        (:initialized) var Z24 as Symbol;
+        (:initialized) var Z8 as Symbol;
+        (:initialized) var Z27 as Symbol;
+        (:initialized) var Z9 as Symbol;
+        (:initialized) var Z26 as Symbol;
+        (:initialized) var Z29 as Symbol;
+        (:initialized) var Z28 as Symbol;
+        (:initialized) var SecOptTitle as Symbol;
+        (:initialized) var ShowNotes as Symbol;
+        (:initialized) var ZSteps as Symbol;
+        (:initialized) var Pink as Symbol;
+        (:initialized) var WhiteShad as Symbol;
+        (:initialized) var Yellow as Symbol;
+        (:initialized) var Z30 as Symbol;
+        (:initialized) var Z31 as Symbol;
+        (:initialized) var ZuluOffset as Symbol;
+        (:initialized) var SubColorTitle as Symbol;
+        (:initialized) var TouchOffTitle as Symbol;
+        (:initialized) var BackgroundColorTitle as Symbol;
+        (:initialized) var ShowNotesPrompt as Symbol;
+        (:initialized) var DKGray as Symbol;
+        (:initialized) var TouchOffPrompt as Symbol;
+        (:initialized) var DKBlue as Symbol;
+        (:initialized) var TimeStepTitle as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var ClockColorPrompt as Symbol;
+        (:initialized) var ShadOptTitle as Symbol;
+        (:initialized) var ZTime as Symbol;
+        (:initialized) var TimeStepPrompt as Symbol;
+        (:initialized) var LocalOrZuluTitle as Symbol;
+        (:initialized) var DispBattTitle as Symbol;
+        (:initialized) var SubColorPrompt as Symbol;
+        (:initialized) var NoShad as Symbol;
+        (:initialized) var Blue as Symbol;
+        (:initialized) var ShowNotesTitle as Symbol;
+        (:initialized) var SecOptPrompt as Symbol;
+        (:initialized) var DKRed as Symbol;
+        (:initialized) var ClockColorTitle as Symbol;
+        (:initialized) var YesBat as Symbol;
+        (:initialized) var BlackShad as Symbol;
+        (:initialized) var Red as Symbol;
+        (:initialized) var White as Symbol;
+        (:initialized) var Purple as Symbol;
+        (:initialized) var Z10 as Symbol;
+        (:initialized) var LTGray as Symbol;
+        (:initialized) var LocalOrZuluPrompt as Symbol;
+        (:initialized) var zuluLabel as Symbol;
+        (:initialized) var Z12 as Symbol;
+        (:initialized) var Z11 as Symbol;
+        (:initialized) var Z14 as Symbol;
+        (:initialized) var DKGreen as Symbol;
+        (:initialized) var Z13 as Symbol;
+        (:initialized) var Green as Symbol;
+        (:initialized) var Z16 as Symbol;
+        (:initialized) var Z15 as Symbol;
+    } // Strings
+} // Rez
