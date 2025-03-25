@@ -25,7 +25,7 @@ class AviationDualTimeView extends WatchUi.WatchFace {
 
     var wxId;
     var wxComp;
-    var wxNow;
+    var wxNow = -99;
 
     var alarmString= " ";  //No complications
 
@@ -116,8 +116,13 @@ class AviationDualTimeView extends WatchUi.WatchFace {
         } else if (compId == wxId) {
             wxNow = (Complications.getComplication(wxId)).value;
             if (wxNow == null) {
-               wxNow = -99; 
+               var tempTemp = Weather.getCurrentConditions();
+               wxNow = tempTemp.temperature; 
             }
+            if (ForC != System.UNIT_METRIC) {
+                wxNow = (wxNow * 9 / 5 + 32).toNumber();
+            }
+
         } else {
             System.println("no valid comps");
         }
@@ -409,14 +414,9 @@ class AviationDualTimeView extends WatchUi.WatchFace {
     function battDisp(dc) {
         //Get battery info
 
-        if (hasComps && showBat == 2) {
+        if (hasComps && showBat == 2 && wxNow != -99) {
             dc.setColor(subColorSet, Graphics.COLOR_TRANSPARENT);
-            if (ForC == System.UNIT_METRIC) {
-                batString = Lang.format("$1$", [wxNow])+"°";
-            } else {
-                wxNow = (wxNow * 9 / 5 + 32).toNumber();
-                batString = Lang.format("$1$", [wxNow])+"°";
-            }
+            batString = Lang.format("$1$", [wxNow])+"°";
         } else if (showBat == 0) {
 
             if (!hasComps) {
@@ -572,6 +572,10 @@ class AviationDualTimeView extends WatchUi.WatchFace {
         }
 
     } 
+
+    function onShow() as Void {
+        WatchUi.requestUpdate();
+    }
     
     function onExitSleep() {
         lowPowerMode = false;
