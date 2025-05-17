@@ -15,8 +15,8 @@ import Toybox.Graphics;
     var localOrZulu = true;
     var dispSecs = false;
     var touchOff = false;
-    var ForC;
     var myBG= 0x000000;
+
 
 class AviationDualTimeApp extends Application.AppBase {
 
@@ -49,7 +49,11 @@ class AviationDualTimeApp extends Application.AppBase {
 
         view = new AviationDualTimeView();
         return [view, new AviationDualTimeDelegate(view) ];
+    }
 
+    function getSettingsView() as [Views] or [Views, InputDelegates] or Null {
+        var menu = new ADTSettingsMenu();
+        return [menu, new ADTSettingsMenuDelegate()];
     }
 
     // New app settings have been received so trigger a UI update
@@ -62,7 +66,6 @@ class AviationDualTimeApp extends Application.AppBase {
         if (subColorNum != null) {oldMyBackgroundColor = subColorNum;}
 
         clockColorNum = Properties.getValue("ClockColor");
-        timeOrStep = Properties.getValue("TimeStep");
         localOrZulu = Properties.getValue("LocalOrZulu");
         showBat = Properties.getValue("DispBatt");
         showNotes = Properties.getValue("ShowNotes");
@@ -72,6 +75,9 @@ class AviationDualTimeApp extends Application.AppBase {
         offSetAmmt = Properties.getValue("ZuluOffset");
         dispSecs = Properties.getValue("SecOpt");
         touchOff = Properties.getValue("TouchOff");
+        timeOrStep = Properties.getValue("TimeStep");
+
+
 
         if (oldClockColorNum != clockColorNum || oldClockShadNum != clockShadNum
             || oldMyBackgroundColor != myBackgroundColor 
@@ -80,8 +86,6 @@ class AviationDualTimeApp extends Application.AppBase {
             } else {
                 colorsUpdated = false;
             }
-        
-        ForC = System.getDeviceSettings().temperatureUnits;
 
 
         if (colorsUpdated) {

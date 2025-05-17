@@ -12,46 +12,53 @@ class AviationDualTimeView extends WatchUi.WatchFace {
 
     //Load the text formats
 
-
-    var stepString = "0";     //The number of steps to be displayed
+    var stepString = "0";       //The number of steps to be displayed
     var stepId;
     var stepComp;
-    var mSteps;         //For the non-complications watches
+    var mSteps;                //For the non-complications watches
+
+    var myEnvelope;
+    var myClock;
 
     var noteId;
     var noteComp;
     var noteSets;
     var noteString;
+    var anyNotes = false;
 
     var wxId;
     var wxComp;
     var wxNow = -99;
 
-    var alarmString= " ";  //No complications
+    var alarmString= " ";       //No complications
 
-    var dateString;
+    var dateString = " ";
 
-    var zuluTime;           //The 24 hour formatted corrected from zulu time
-    var myZuluLabel;        //User selected offset from Z formatted for display
+    var zuluTime;               //The 24 hour formatted corrected from zulu time
+    var myZuluLabel;            //User selected offset from Z formatted for display
  
-    var calcTime;           //Formatted local time
+    var calcTime;               //Formatted local time
+
+    var ForC = false;
 
     var hasComps = false;
     var lowPowerMode = false;
+    var hasWx = false;
 
-    var batString;
+    var batString = " ";
     var batId;
     var batComp;
     var batLoad = 0;
 
-    var calId;          //Calendar info for new watches only
+    var calId;                  //Calendar info for new watches only
 
-    var batY = 0.33;        //Divide up the screen for press to complications
+    var batY = 0.33;            //Divide up the screen for press to complications
     var stepY = 0.66;
     var wHeight;
     var wWidth;
 
-    var BIP = true;     //Burn In Protection marker
+    var BIP = true;             //Burn In Protection marker
+    var alSets;                 //Is the alarm set
 
     
     function initialize() {
@@ -59,6 +66,12 @@ class AviationDualTimeView extends WatchUi.WatchFace {
 
         hasComps = (Toybox has :Complications); 
         lowPowerMode = (Toybox has :onPartialUpdate);
+        hasWx = (Toybox has :Weather);
+
+        myEnvelope = WatchUi.loadResource(Rez.Drawables.envelope);
+        myClock = WatchUi.loadResource(Rez.Drawables.clock); 
+
+        ForC = System.getDeviceSettings().temperatureUnits;
 
         if (hasComps) {
             stepId = new Id(Complications.COMPLICATION_TYPE_STEPS);
@@ -115,14 +128,14 @@ class AviationDualTimeView extends WatchUi.WatchFace {
             }
         } else if (compId == wxId) {
             wxNow = (Complications.getComplication(wxId)).value;
-            if (wxNow == null) {
-               var tempTemp = Weather.getCurrentConditions();
-               wxNow = tempTemp.temperature; 
+            if (wxNow == null && hasWx) {
+                try {
+                    var tempTemp = Weather.getCurrentConditions();
+                    wxNow = tempTemp.temperature; 
+                } catch (e) {
+                    wxNow = -99;
+                }
             }
-            if (ForC != System.UNIT_METRIC) {
-                wxNow = (wxNow * 9 / 5 + 32).toNumber();
-            }
-
         } else {
             System.println("no valid comps");
         }
@@ -138,57 +151,6 @@ class AviationDualTimeView extends WatchUi.WatchFace {
         //Set Background Color
         dc.setColor(myBG, myBG);
         dc.clear();
-
-        if (System.getDeviceSettings().screenShape != System.SCREEN_SHAPE_SEMI_OCTAGON) {
-
-            //Draw battery
-                battDisp(dc);
-                dc.drawText((wWidth/2), (0.08 * wHeight), Graphics.FONT_TINY, batString, Graphics.TEXT_JUSTIFY_CENTER);    
-            //Draw Alarm
-                dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-                alarmDisp();
-                dc.drawText(wWidth * 0.7, wHeight * 0.1, Graphics.FONT_TINY, alarmString, Graphics.TEXT_JUSTIFY_LEFT);
-            //Draw Time/Z Time/Steps
-                mainZone(dc);
-            //Draw Date
-                dateDisp();
-                dc.setColor(subColorSet, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(wWidth / 2, wHeight * 0.58, Graphics.FONT_MEDIUM, dateString, Graphics.TEXT_JUSTIFY_CENTER);
-            //Draw Notes if on
-                if (showNotes) {
-                    notesDisp();
-                        dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-                        dc.drawText(wWidth / 4, wHeight * 0.1, Graphics.FONT_TINY, noteString, Graphics.TEXT_JUSTIFY_LEFT);
-                }
-            //Draw Seconds Arc if on
-                if (dispSecs && 
-                        System.getDeviceSettings().screenShape == System.SCREEN_SHAPE_ROUND) {
-                    secondsDisplay(dc);
-                }
-        } else {
-            //Draw battery
-                battDisp(dc);
-                dc.drawText((wWidth * .85), (0.1 * wHeight), Graphics.FONT_TINY, batString, Graphics.TEXT_JUSTIFY_CENTER);    
-            //Draw Alarm
-                dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-                alarmDisp();
-                dc.drawText(wWidth * 0.5, wHeight * 0.1, Graphics.FONT_TINY, alarmString, Graphics.TEXT_JUSTIFY_LEFT);
-            //Draw Time/Z Time/Steps
-                mainZone(dc);
-            //Draw Date
-                dateDisp();
-                dc.setColor(subColorSet, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(wWidth / 2, wHeight * 0.65, Graphics.FONT_MEDIUM, dateString, Graphics.TEXT_JUSTIFY_CENTER);
-            //Draw Notes if on
-                if (showNotes) {
-                     notesDisp();
-                        dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-                        dc.drawText(wWidth / 4, wHeight * 0.1, Graphics.FONT_TINY, noteString, Graphics.TEXT_JUSTIFY_LEFT);
-
-                }
-
-        }
-
     }
 
 
@@ -205,9 +167,18 @@ class AviationDualTimeView extends WatchUi.WatchFace {
                     battDisp(dc);
                     dc.drawText((wWidth/2), (0.08 * wHeight), Graphics.FONT_TINY, batString, Graphics.TEXT_JUSTIFY_CENTER);    
                 //Draw Alarm
-                    dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
                     alarmDisp();
-                    dc.drawText(wWidth * 0.7, wHeight * 0.1, Graphics.FONT_TINY, alarmString, Graphics.TEXT_JUSTIFY_LEFT);
+                    if (alSets != 0){
+                        try {
+                            dc.drawBitmap(wWidth * 0.64, wHeight * 0.11, myClock);
+                        } catch (e) {
+                            dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
+                            dc.drawText(wWidth * 0.7, wHeight * 0.1, Graphics.FONT_TINY, alarmString, Graphics.TEXT_JUSTIFY_LEFT);
+                        }
+                    } else {
+                        dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
+                        dc.drawText(wWidth * 0.7, wHeight * 0.1, Graphics.FONT_TINY, alarmString, Graphics.TEXT_JUSTIFY_LEFT);
+                    }                
                 //Draw Time/Z Time/Steps
                     mainZone(dc);
                 //Draw Date
@@ -217,9 +188,17 @@ class AviationDualTimeView extends WatchUi.WatchFace {
                 //Draw Notes if on
                     if (showNotes) {
                         notesDisp();
-                        dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-                        dc.drawText(wWidth / 4, wHeight * 0.1, Graphics.FONT_TINY, noteString, Graphics.TEXT_JUSTIFY_LEFT);
-                     }
+                        if (anyNotes) {
+                            try {
+                                dc.drawBitmap(wWidth / 4, wHeight * 0.1,myEnvelope);
+                            } catch (e) {
+                                dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
+                                dc.drawText(wWidth / 4, wHeight * 0.1, Graphics.FONT_TINY, noteString, Graphics.TEXT_JUSTIFY_LEFT);
+                            }
+                        } else {
+                            dc.drawText(wWidth / 4, wHeight * 0.1, Graphics.FONT_TINY, " ", Graphics.TEXT_JUSTIFY_LEFT);
+                        }
+                    }
                 //Draw Seconds Arc if on
                     if (dispSecs && 
                         System.getDeviceSettings().screenShape == System.SCREEN_SHAPE_ROUND) {
@@ -230,19 +209,31 @@ class AviationDualTimeView extends WatchUi.WatchFace {
                     battDisp(dc);
                     dc.drawText((wWidth * .85), (0.1 * wHeight), Graphics.FONT_TINY, batString, Graphics.TEXT_JUSTIFY_CENTER);    
                 //Draw Alarm
-                    dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
+                    if (myBackgroundColor == 0xFFFFFF) {
+                        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+                    } else {
+                        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+                    }
                     alarmDisp();
                     dc.drawText(wWidth * 0.7, wHeight * 0.1, Graphics.FONT_TINY, alarmString, Graphics.TEXT_JUSTIFY_LEFT);
                 //Draw Time/Z Time/Steps
                     mainZone(dc);
                 //Draw Date
                     dateDisp();
-                    dc.setColor(subColorSet, Graphics.COLOR_TRANSPARENT);
+                    if (myBackgroundColor == 0xFFFFFF) {
+                        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+                    } else {
+                        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+                    }
                     dc.drawText(wWidth / 2, wHeight * 0.65, Graphics.FONT_MEDIUM, dateString, Graphics.TEXT_JUSTIFY_CENTER);
                 //Draw Notes if on
                     if (showNotes) {
                         notesDisp();
-                        dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
+                        if (myBackgroundColor == 0xFFFFFF) {
+                            dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+                        } else {
+                            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+                        }
                         dc.drawText(wWidth / 4, wHeight * 0.1, Graphics.FONT_TINY, noteString, Graphics.TEXT_JUSTIFY_LEFT);
                     }
             }
@@ -265,7 +256,8 @@ class AviationDualTimeView extends WatchUi.WatchFace {
                     BIP = true;
                 }
             } else {
-               if (BIP) {
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+                if (BIP) {
                     dc.drawText((wWidth / 2) - 30, (wHeight * 0.20), Graphics.FONT_MEDIUM, calcTime+"L", Graphics.TEXT_JUSTIFY_CENTER); 
                     dc.drawText((wWidth / 2), (wHeight * 0.60), Graphics.FONT_MEDIUM, zuluTime, Graphics.TEXT_JUSTIFY_CENTER); 
                     BIP = false;
@@ -372,8 +364,6 @@ class AviationDualTimeView extends WatchUi.WatchFace {
     //Notifications Display Area
     function notesDisp() {
 
-        var anyNotes;
-
         if (hasComps == false) {
             noteSets = System.getDeviceSettings();
 
@@ -400,7 +390,7 @@ class AviationDualTimeView extends WatchUi.WatchFace {
 
     function alarmDisp() {
 
-        var alSets = System.getDeviceSettings().alarmCount;
+        alSets = System.getDeviceSettings().alarmCount;
 
         if (alSets != 0) {
             alarmString = "A";
@@ -409,45 +399,48 @@ class AviationDualTimeView extends WatchUi.WatchFace {
         }
     } 
 
-
     //Battery Display Area
     function battDisp(dc) {
-        //Get battery info
 
-        if (hasComps && showBat == 2 && wxNow != -99) {
+        if (showBat == 2 && hasWx) {
+            if ((hasComps && wxNow == -99 || wxNow == null) || (!hasComps)) {
+                try {
+                    var tempTemp = Weather.getCurrentConditions();
+                    wxNow = tempTemp.temperature; 
+                } catch (x) {
+                    wxNow = -99;                  
+                }
+            }
+            if ((ForC != System.UNIT_METRIC) && (wxNow != -99)) {
+                wxNow = (wxNow * 9 / 5 + 32).toNumber();
+            }
             dc.setColor(subColorSet, Graphics.COLOR_TRANSPARENT);
             batString = Lang.format("$1$", [wxNow])+"°";
         } else if (showBat == 0) {
-
-            if (!hasComps) {
+            if (!hasComps || batLoad == null) {
                 batLoad = ((System.getSystemStats().battery) + 0.5).toNumber();
             }
-            batString = Lang.format("$1$", [batLoad])+"%";
 
-            if (System has :SCREEN_SHAPE_SEMI_OCTAGON &&
-                System.getDeviceSettings().screenShape != System.SCREEN_SHAPE_SEMI_OCTAGON){     //Monocrhrome correction
-
-                if (batLoad < 5.0) {
-                    dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-                } else if (batLoad < 25.0) {
-                    dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-                } else {
-                    dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-                }
+            if (batLoad < 5.0) {
+                dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+            } else if (batLoad < 25.0) {
+                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
             } else {
-
-                if (myBackgroundColor == 0xFFFFFF) {
-                    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-                } else {
-                    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-                }
+                dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
             }
-        } else { 
-            dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
+            batString = Lang.format("$1$", [batLoad])+"%";
+        } else {
             batString = " ";
+        }
+        if (System has :SCREEN_SHAPE_SEMI_OCTAGON && System.getDeviceSettings().screenShape == System.SCREEN_SHAPE_SEMI_OCTAGON){     //Monocrhrome correction
+            //Correct color for Black & White screens
+            if (myBackgroundColor == 0xFFFFFF) {
+                dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+            } else {
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            }
         } 
     }
-
 
     function stepsDisp() {
     //Format Steps
@@ -467,6 +460,7 @@ class AviationDualTimeView extends WatchUi.WatchFace {
     function dateDisp() {
 
         var dateLoad = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+
         dateString = Lang.format("$1$, $2$ $3$", 
             [dateLoad.day_of_week,
             dateLoad.day,
@@ -553,6 +547,7 @@ class AviationDualTimeView extends WatchUi.WatchFace {
                 dc.drawText(wWidth / 2, wHeight * 0.54, Graphics.FONT_SYSTEM_XTINY, myZuluLabel, Graphics.TEXT_JUSTIFY_CENTER);
 
             }
+
             if (timeOrStep) {
                 //Display Secondary time
                 normalTime();
@@ -574,7 +569,9 @@ class AviationDualTimeView extends WatchUi.WatchFace {
     } 
 
     function onShow() as Void {
+        System.println("onShow 568");
         WatchUi.requestUpdate();
+        
     }
     
     function onExitSleep() {
