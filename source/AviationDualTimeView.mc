@@ -16,6 +16,8 @@ class AviationDualTimeView extends WatchUi.WatchFace {
     var stepId;
     var stepComp;
     var mSteps;                //For the non-complications watches
+    var myFeet;
+    var feetW;
 
     var myEnvelope;
     var myClock;
@@ -76,6 +78,11 @@ class AviationDualTimeView extends WatchUi.WatchFace {
             myClock = WatchUi.loadResource(Rez.Drawables.clockGreen);
         }
         ForC = System.getDeviceSettings().temperatureUnits;
+
+        //Feet Bitmap define
+        myFeet = WatchUi.loadResource(Rez.Drawables.feetGray); 
+        feetW = myFeet.getWidth();
+
 
         if (hasComps) {
             stepId = new Id(Complications.COMPLICATION_TYPE_STEPS);
@@ -145,7 +152,7 @@ class AviationDualTimeView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-
+        
         //Set Background Color
         dc.setColor(myBG, myBG);
         dc.clear();
@@ -247,15 +254,28 @@ class AviationDualTimeView extends WatchUi.WatchFace {
             calcZuluTime();
             dc.setColor(Graphics.COLOR_DK_RED, Graphics.COLOR_BLACK);
 
+
             if (System.getDeviceSettings().screenShape != System.SCREEN_SHAPE_SEMI_OCTAGON) {
-                if (BIP) {
-                    dc.drawText((wWidth / 2), (wHeight * 0.20), Graphics.FONT_NUMBER_HOT, calcTime, Graphics.TEXT_JUSTIFY_CENTER); 
-                    dc.drawText((wWidth / 2), (wHeight * 0.60), Graphics.FONT_MEDIUM, zuluTime, Graphics.TEXT_JUSTIFY_CENTER); 
-                    BIP = false;
+                if (localOrZulu) {
+                    if (BIP) {
+                        dc.drawText((wWidth / 2), wHeight * 0.20, Graphics.FONT_NUMBER_HOT, calcTime, Graphics.TEXT_JUSTIFY_CENTER); 
+                        dc.drawText((wWidth / 2), wHeight * 0.60, Graphics.FONT_MEDIUM, zuluTime, Graphics.TEXT_JUSTIFY_CENTER); 
+                        BIP = false;
+                    } else {
+                        dc.drawText((wWidth / 2), wHeight * 0.35, Graphics.FONT_NUMBER_HOT, calcTime, Graphics.TEXT_JUSTIFY_CENTER); 
+                        dc.drawText((wWidth / 2), wHeight * 0.70, Graphics.FONT_MEDIUM, zuluTime, Graphics.TEXT_JUSTIFY_CENTER); 
+                        BIP = true;
+                    }
                 } else {
-                    dc.drawText((wWidth / 2), (wHeight * 0.35), Graphics.FONT_NUMBER_HOT, calcTime, Graphics.TEXT_JUSTIFY_CENTER); 
-                    dc.drawText((wWidth / 2), (wHeight * 0.70), Graphics.FONT_MEDIUM, zuluTime, Graphics.TEXT_JUSTIFY_CENTER); 
-                    BIP = true;
+                    if (BIP) {
+                        dc.drawText((wWidth / 2), wHeight * 0.60, Graphics.FONT_MEDIUM, calcTime, Graphics.TEXT_JUSTIFY_CENTER); 
+                        dc.drawText((wWidth / 2), wHeight * 0.20, Graphics.FONT_NUMBER_HOT, zuluTime, Graphics.TEXT_JUSTIFY_CENTER); 
+                        BIP = false;
+                    } else {
+                        dc.drawText((wWidth / 2), wHeight * 0.7, Graphics.FONT_MEDIUM, calcTime, Graphics.TEXT_JUSTIFY_CENTER); 
+                        dc.drawText((wWidth / 2), wHeight * 0.35, Graphics.FONT_NUMBER_HOT, zuluTime, Graphics.TEXT_JUSTIFY_CENTER); 
+                        BIP = true;
+                    }
                 }
             } else {
                 dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
@@ -530,12 +550,27 @@ class AviationDualTimeView extends WatchUi.WatchFace {
                 dc.drawText(wWidth / 2, wHeight * 0.88, Graphics.FONT_SYSTEM_XTINY, myZuluLabel, Graphics.TEXT_JUSTIFY_CENTER);
 
             } else {
+                if (System.getDeviceSettings().screenShape != System.SCREEN_SHAPE_SEMI_OCTAGON) {
+                    if (feetW == null || feetW ==0) {
+                        feetW = myFeet.getWidth();
+                    }
+                    if (Graphics.Dc has:drawBitmap2){
+                        dc.drawBitmap2((wWidth/2) - (feetW/2), wHeight*0.7, myFeet, {
+                            :tintColor=>clockColorSet
+                        });
+                    } else {
+                        dc.drawBitmap((wWidth/2) - (feetW/2), wHeight*0.7, myFeet);
+                    }
+                } else {
+                    dc.drawText(wWidth / 2, wHeight * 0.88, Graphics.FONT_SYSTEM_XTINY, "steps", Graphics.TEXT_JUSTIFY_CENTER);
+                }
+
                 //Display Stpes
                 stepsDisp();
 
                 dc.setColor(subColorSet, Graphics.COLOR_TRANSPARENT);
                 dc.drawText(wWidth / 2, wHeight * 0.75, Graphics.FONT_LARGE, stepString, Graphics.TEXT_JUSTIFY_CENTER);
-                dc.drawText(wWidth / 2, wHeight * 0.88, Graphics.FONT_SYSTEM_XTINY, "steps", Graphics.TEXT_JUSTIFY_CENTER);
+                //dc.drawText(wWidth / 2, wHeight * 0.88, Graphics.FONT_SYSTEM_XTINY, "steps", Graphics.TEXT_JUSTIFY_CENTER);
 
             }
 
@@ -569,12 +604,27 @@ class AviationDualTimeView extends WatchUi.WatchFace {
                 dc.drawText(wWidth / 2, wHeight * 0.88, Graphics.FONT_SYSTEM_XTINY, "local", Graphics.TEXT_JUSTIFY_CENTER);
 
             } else {
+
+                if (System.getDeviceSettings().screenShape != System.SCREEN_SHAPE_SEMI_OCTAGON) {
+                    if (feetW == null || feetW ==0) {
+                        feetW = myFeet.getWidth();
+                    }
+                    if (Graphics.Dc has:drawBitmap2){
+                        dc.drawBitmap2((wWidth/2) - (feetW/2), wHeight*0.7, myFeet, {
+                            :tintColor=>clockColorSet
+                        });
+                    } else {
+                        dc.drawBitmap((wWidth/2) - (feetW/2), wHeight*0.7, myFeet);
+                    }
+                } else {
+                    dc.drawText(wWidth / 2, wHeight * 0.88, Graphics.FONT_SYSTEM_XTINY, "steps", Graphics.TEXT_JUSTIFY_CENTER);
+                }
                 //Display Steps
                 stepsDisp();
 
                 dc.setColor(subColorSet, Graphics.COLOR_TRANSPARENT);
                 dc.drawText(wWidth / 2, wHeight * 0.75, Graphics.FONT_LARGE, stepString, Graphics.TEXT_JUSTIFY_CENTER);
-                dc.drawText(wWidth / 2, wHeight * 0.88, Graphics.FONT_SYSTEM_XTINY, "steps", Graphics.TEXT_JUSTIFY_CENTER);
+                //dc.drawText(wWidth / 2, wHeight * 0.88, Graphics.FONT_SYSTEM_XTINY, "steps", Graphics.TEXT_JUSTIFY_CENTER);
             }
 
         }

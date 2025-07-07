@@ -4,4 +4,5 @@
     <bitmap id="envelopeGreen" filename="Envelopegrn.png" packingFormat="default" scaleX="10%" />
     <bitmap id="clock" filename="Clock.png" packingFormat="png" scaleX="10%"/>
     <bitmap id="clockGreen" filename="Clockgrn.png" packingFormat="png" scaleX="10%"/>
+    <bitmap id="feetGray" filename="feetGray.png" packingFormat="png" scaleX="20%" />
 </drawables>
