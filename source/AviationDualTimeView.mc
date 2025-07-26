@@ -570,7 +570,6 @@ class AviationDualTimeView extends WatchUi.WatchFace {
 
                 dc.setColor(subColorSet, Graphics.COLOR_TRANSPARENT);
                 dc.drawText(wWidth / 2, wHeight * 0.75, Graphics.FONT_LARGE, stepString, Graphics.TEXT_JUSTIFY_CENTER);
-                //dc.drawText(wWidth / 2, wHeight * 0.88, Graphics.FONT_SYSTEM_XTINY, "steps", Graphics.TEXT_JUSTIFY_CENTER);
 
             }
 
